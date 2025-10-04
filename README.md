@@ -59,7 +59,19 @@ Accurate forecasts support operational planning (e.g., bike availability, staffi
 | XGBoost [TEST]               | 1011.1| 1197.7 | 0.1957 |
 
 ---
+## 🧾 Explainability
 
+### SHAP Feature Importances
+![LightGBM SHAP Bar](reports/figures/shap_lightgbm_bar.png)
+![XGBoost SHAP Bar](reports/figures/shap_xgboost_bar.png)
+
+### SHAP Beeswarm
+![LightGBM SHAP Beeswarm](reports/figures/shap_lightgbm_beeswarm.png)
+![XGBoost SHAP Beeswarm](reports/figures/shap_xgboost_beeswarm.png)
+
+
+
+---
 ## 💡 Key Insights
 - **Lag features dominate**: `y_lag1`, `y_lag7`, and rolling averages are the strongest predictors.  
 - **Weather effects matter**: rentals rise with mild temperatures, drop with high humidity and extreme cold.  
